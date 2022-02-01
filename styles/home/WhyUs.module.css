@@ -1,0 +1,48 @@
+.dualDiv {
+  display: flex;
+  /* padding: 100px 110px; */
+}
+.dualDiv p {
+  color: #7b7b7b;
+}
+.dualDiv h5 {
+  color: #15b1ff;
+}
+.leftRightDiv {
+  width: 50%;
+}
+.leftDiv {
+  padding: 0px 100px 0px 0px;
+}
+.leftDivManu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftManuOption {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 10px;
+}
+.optonIcon {
+  padding: 10px 15px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  margin-right: 10px;
+  box-shadow: 1px 1px 20px grey;
+}
+.rightDiv {
+  padding-top: 20px;
+}
+
+@media (max-width: 1000px) {
+  .dualDiv {
+    /* display: inline; */
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .leftRightDiv {
+    width: 100%;
+  }
+}

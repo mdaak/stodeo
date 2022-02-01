@@ -1,0 +1,24 @@
+.tasimonial {
+  padding: 5rem;
+}
+
+.tasimonialCart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tasimonialCart div {
+  width: 500px;
+  padding: 20px;
+}
+.testHead {
+  text-align: center;
+  /* padding: 1rem; */
+  color: #15b1ff;
+  font-size: 0.75rem;
+}
+.testHead h1 {
+  font-size: 2rem;
+  /* padding: 2rem; */
+  color: black;
+}

@@ -1,0 +1,32 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 20px; */
+  min-height: 80vh;
+}
+
+.hero div {
+  width: 50%;
+  text-align: center;
+  padding-top: 30px;
+}
+.hero div h5 {
+  color: #15b1ff;
+}
+
+.hero div h1 {
+  color: #081b46;
+}
+
+.hero div p {
+  color: #828282;
+}
+.hero div button {
+  padding: 0.7rem 2rem;
+  border-radius: 30px;
+  border: none;
+  background-color: #3369e7;
+  color: #fff;
+  margin-top: 3rem;
+}
