@@ -1,0 +1,61 @@
+.OurBlog {
+  display: flex;
+  padding: 5% 80px;
+}
+.firstDiv {
+  width: 30vw;
+}
+/* .secondDiv {
+} */
+.secondDivHead {
+  padding-left: 100px;
+}
+.secondDivHead h5 {
+  color: #15b1ff;
+}
+
+.secondDivBox {
+  display: flex;
+}
+.secondDivCard {
+  padding: 0px 0px 20px 100px;
+  color: rgb(124, 124, 124);
+  font-size: 15px;
+}
+
+.secondDivCard h5 {
+  color: black;
+}
+
+.cardLoge {
+  padding: 4px;
+  background-color: rgb(230, 230, 230);
+  border: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  display: fles;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px 0px 16px;
+  color: #15b1ff;
+}
+@media (max-width: 1300px) {
+  .firstDiv {
+    display: none;
+  }
+  .secondDivCard {
+    padding: 0px 20px 20px 0px;
+    color: rgb(124, 124, 124);
+    font-size: 15px;
+  }
+  .secondDivHead {
+    padding-left: 0px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .secondDivBox {
+    flex-direction: column;
+  }
+}
