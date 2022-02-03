@@ -19,14 +19,14 @@ const NavBar = () => {
       <div className={styles.sideBar}>
         <div>
           {/* <div>III</div> */}
-          <ul>
+          {/* <ul>
             <li>Home</li>
             <li>Why Stodeo</li>
             <li>Our Services</li>
             <li>Galary</li>
             <li>About</li>
             <li>Contact Us</li>
-          </ul>
+          </ul> */}
         </div>
       </div>
     </div>
