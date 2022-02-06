@@ -1,6 +1,7 @@
 .dualDiv {
   display: flex;
   /* padding: 100px 110px; */
+  border: 2px solid green;
 }
 .dualDiv p {
   color: #7b7b7b;
@@ -10,9 +11,10 @@
 }
 .leftRightDiv {
   width: 50%;
+  /* width: calc(50%+10%); */
 }
 .leftDiv {
-  padding: 0px 100px 0px 0px;
+  padding: 0px 100px 0px 30px;
 }
 .leftDivManu {
   display: flex;
@@ -33,7 +35,9 @@
   box-shadow: 1px 1px 20px grey;
 }
 .rightDiv {
-  padding-top: 20px;
+  position: relative;
+  min-height: 400px;
+  margin: 50px;
 }
 
 @media (max-width: 1000px) {
@@ -44,5 +48,12 @@
   }
   .leftRightDiv {
     width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .leftDivManu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }

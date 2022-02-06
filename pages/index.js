@@ -15,6 +15,8 @@ export default function Home() {
       <WhyUs/>
       <Testimonial/>
       <Footer />
+      {/* <button Link='/responsive'> responsive page</button> */}
+      <button><a href='/responsive'> responsive </a></button>
     </div>
   )
 }

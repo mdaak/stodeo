@@ -3,7 +3,7 @@ import styles from "../../styles/home/WhyUs.module.css";
 
 const WhyUs = () => {
   return (
-    <div className="container">
+    <section className="container">
       <div className={styles.dualDiv}>
         <div className={styles.leftRightDiv}>
           <div className={styles.leftDiv}>
@@ -52,11 +52,11 @@ const WhyUs = () => {
         </div>
         <div className={styles.leftRightDiv}>
           <div className={styles.rightDiv}>
-            <Image src="/dualDev.jpg" alt="dualDive" width={600} height={500} />
+            <Image src="/dualDev.jpg" alt="dualDive" layout="fill"/>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
