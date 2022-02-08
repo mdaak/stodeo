@@ -1,7 +1,9 @@
 import styles from "../styles/NavBar.module.css";
 const NavBar = () => {
   return (
-    <div className={styles.nav}>
+
+    <div className={styles.border}>
+      <div className={styles.nav}>
       <div>Stodeo</div>
       <div className={styles.navOption}>
         <ul>
@@ -29,6 +31,7 @@ const NavBar = () => {
           </ul> */}
         </div>
       </div>
+    </div>
     </div>
   );
 };

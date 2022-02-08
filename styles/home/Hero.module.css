@@ -15,12 +15,12 @@
 .heroText h5 {
   color: #15b1ff;
   /* font-size: clamp(10px 50rem 55px); */
-  font-size: clamp(0.5rem, 1.5vw, 2rem);
+  font-size: clamp(1rem, 1vw, 2rem);
 }
 
 .heroText h1 {
   color: #081b46;
-  font-size: clamp(1rem, 3vw, 2rem);
+  font-size: clamp(2rem, 5vw, 4rem);
 }
 
 .heroText p {

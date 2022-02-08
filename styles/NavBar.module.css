@@ -1,12 +1,18 @@
+.border {
+  display: flex;
+  justify-content: center;
+}
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   font-weight: bold;
   font-size: 1.5rem;
   padding: 10px 50px;
   color: #4a69ea;
+  max-width: 3000px;
+  border: 2px solid red;
 }
 .navOption ul {
   display: inline-flex;

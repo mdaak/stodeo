@@ -3,7 +3,8 @@ import styles from '../../styles/home/OurBlog.module.css';
 const OurBlog = () => {
   return (
     <div className={styles.OurBlog}>
-      <div className={styles.firstDiv}></div>
+
+     <div className={styles.firstDiv}></div>
       <div className={styles.secondDiv}>
         <div className={styles.secondDivHead}>
           <h5>Our Blog</h5>
