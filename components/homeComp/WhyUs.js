@@ -7,11 +7,11 @@ const WhyUs = () => {
       <div className={styles.dualDiv}>
         <div className={styles.leftRightDiv}>
           <div className={styles.leftDiv}>
-            <div>
+            <div className={styles.leftDivHead}>
               <h5>Why us</h5>
               <h1>Why are we Awesome</h1>
             </div>
-            <div>
+            <div className={styles.leftDivPara}>
               <p>
                 Far far away, behind the word mountains, far from the countries
                 Vokalia and Consonantia, there live the blind texts. Separated
@@ -52,7 +52,7 @@ const WhyUs = () => {
         </div>
         <div className={styles.leftRightDiv}>
           <div className={styles.rightDiv}>
-            <Image src="/dualDev.jpg" alt="dualDive" layout="fill"/>
+            <Image src="/dualDev.jpg" alt="dualDive" layout="responsive" width="100%" height="70%"/>
           </div>
         </div>
       </div>

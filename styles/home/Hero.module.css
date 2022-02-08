@@ -12,17 +12,20 @@
   font-size: 16px;
   /* padding-top: 30px; */
 }
-.hero div h5 {
+.heroText h5 {
   color: #15b1ff;
-  font-size: clamp(1vw 2rem 5vw);
+  /* font-size: clamp(10px 50rem 55px); */
+  font-size: clamp(0.5rem, 1.5vw, 2rem);
 }
 
-.hero div h1 {
+.heroText h1 {
   color: #081b46;
+  font-size: clamp(1rem, 3vw, 2rem);
 }
 
-.hero div p {
+.heroText p {
   color: #828282;
+  font-size: clamp(0.5rem, 1.5vw, 2rem);
 }
 .hero div button {
   padding: 0.7rem 2rem;

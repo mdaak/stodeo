@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Footer from '../components/homeComp/Footer';
 import Hero from '../components/homeComp/Hero';
 import OurBlog from '../components/homeComp/OurBlogs';
@@ -16,7 +17,7 @@ export default function Home() {
       <Testimonial/>
       <Footer />
       {/* <button Link='/responsive'> responsive page</button> */}
-      <button><a href='/responsive'> responsive </a></button>
+      <button><Link href='/responsive'> responsive </Link></button>
     </div>
   )
 }

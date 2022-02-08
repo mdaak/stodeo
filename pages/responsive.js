@@ -6,14 +6,16 @@ const Responsive = () => {
   return (
     <body className={styles.body}>
       <header id="showcase" className={styles.grid}>
-        <div className="bg-image"></div>
+        <div 
+        // className={styles.bg-image}
+        ></div>
         <h1>welcome to acme web solution</h1>
         <p className="paragraph">
           orem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry s standard dummy text ever
           since the 1500s, when an unknown printer
         </p>
-        <a href="#section-b" className="btm">
+        <a href="#section-b" className={styles.btn}>
           read more
         </a>
       </header>
@@ -21,7 +23,9 @@ const Responsive = () => {
       <main id="main">
         {/* section-a */}
         <section id="section-a" className="grid">
-          <div className="content-wrap">
+          <div
+          //  className={styles.content-wrap}
+           >
             <h2 className="content-title">
               orem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry s standard dummy text
@@ -30,7 +34,7 @@ const Responsive = () => {
           </div>
         </section>
         {/* section-b */}
-        <section id="section-b" className="grid">
+        <section id="section-b" className={styles.grid}>
           <ul>
             <li>
               <div className="card">
