@@ -7,9 +7,14 @@
   justify-content: center;
   align-items: center;
 }
-.tasimonialCart div {
+.tasimonialCart_div {
   width: 500px;
   padding: 20px;
+}
+.eachCard p {
+  font-size: clamp(1rem 2.5vw 2rem);
+  display: flex;
+  flex-wrap: wrap;
 }
 .testHead {
   text-align: center;
@@ -21,4 +26,13 @@
   font-size: 2rem;
   /* padding: 2rem; */
   color: black;
+}
+@media (max-width: 630px) {
+  .tasimonial {
+    padding: 1rem;
+  }
+  .tasimonialCart_div {
+    width: 250px;
+    padding: 10px;
+  }
 }

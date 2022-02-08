@@ -52,7 +52,7 @@ const WhyUs = () => {
         </div>
         <div className={styles.leftRightDiv}>
           <div className={styles.rightDiv}>
-            <Image src="/dualDev.jpg" alt="dualDive" layout="responsive" width="100%" height="70%"/>
+            <Image src="/dualDev.jpg" alt="dualDive" layout="responsive" width="100%" height="60%"/>
           </div>
         </div>
       </div>

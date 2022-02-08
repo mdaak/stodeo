@@ -72,7 +72,7 @@ const Testimonial = () => {
         {sliderData.map((data, i) => {
           return (
             <SwiperSlide key={i} className={styles.tasimonialCart}>
-              <div>
+              <div className={styles.tasimonialCart_div}>
                 <p>{data.text}</p>
                 <div>
                   <p>{data.name}</p>

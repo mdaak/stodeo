@@ -52,13 +52,12 @@
   margin: 50px;
   border: 2px solid red;
 } */
-
 .rightDiv {
-  padding-top: 40px;
-  border: 2px solid red;
+  padding-top: 50px;
+  padding-right: 30px;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1200px) {
   .dualDiv {
     /* display: inline; */
     display: flex;
@@ -68,7 +67,7 @@
     width: 100%;
   }
   .rightDiv {
-    padding: 0px 10%;
+    padding: 0px 100px;
   }
 }
 @media (max-width: 600px) {
