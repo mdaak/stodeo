@@ -7,8 +7,9 @@
   margin: 0 auto;
 }
 .firstDiv {
-  width: 30rem;
+  width: 70rem;
   height: 20rem;
+  /* border: 2px solid red; */
 }
 .secondDiv {
   padding-left: 0px;
@@ -19,7 +20,7 @@
   padding: 0px 10px;
 } */
 .secondDivHead {
-  padding-left: 100px;
+  padding-left: 0px;
 }
 .secondDivHead h5 {
   color: #15b1ff;
@@ -28,7 +29,7 @@
 
 .secondDivBox {
   display: flex;
-  padding: 50px 100px;
+  padding: 50px 0px 0px 0px;
 }
 .secondDivCard {
   padding: 0px 60px 20px 0px;
@@ -58,12 +59,12 @@
     display: none;
   }
   .secondDivCard {
-    padding: 0px 20px 20px 0px;
+    padding: 0px 50px 50px 50px;
     color: rgb(124, 124, 124);
     font-size: 15px;
   }
   .secondDivHead {
-    padding-left: 9%;
+    padding-left: 5%;
   }
 }
 
@@ -73,5 +74,8 @@
     padding-top: 5px;
     padding-left: 10%;
     padding-right: 0;
+  }
+  .secondDivHead {
+    padding-left: 15%;
   }
 }

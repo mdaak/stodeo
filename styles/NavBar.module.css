@@ -1,7 +1,10 @@
 .border {
   display: flex;
   justify-content: center;
+  /* border: 2px solid green; */
+  padding: 0% 1%;
 }
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -9,10 +12,11 @@
   /* flex-wrap: wrap; */
   font-weight: bold;
   font-size: 1.5rem;
-  padding: 10px 50px;
+  /* padding: 10px 50px; */
   color: #4a69ea;
-  max-width: 3000px;
-  border: 2px solid red;
+  /* max-width: 3000px; */
+  /* border: 2px solid red; */
+  width: 1500px;
 }
 .navOption ul {
   display: inline-flex;
