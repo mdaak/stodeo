@@ -20,33 +20,41 @@ const FormData = () => {
           <form onSubmit={handleSubmit(onSubmit)}>
             <input placeholder="enter your name" {...register("name")} />
 
-            <input
-              placeholder="enter your email"
-              {...register("email", { required: true })}
-            />
+            <div>
+              <input
+                placeholder="enter your email"
+                {...register("email", { required: true })}
+              />
+                <br/>
+              {errors.email && <spam>email required</spam>}
+            </div>
             <br />
-            {errors.email && <spam>email required</spam>}
-
+            <div>
             <input
               placeholder="enter your phone"
               {...register("phone", { required: true })}
-            />
-
+            /><br/>
             {errors.phone && <span>phone nunber required</span>}
 
-            <input placeholder="enter your address" {...register("address")} />
-            <br />
-            <textarea
+            </div>
+           
+            <div>
+            <input placeholder="enter your address" {...register("address")} /><br/>
+            {errors.address && <span> email address required </span>}
+            </div>
+
+           <div>
+           <textarea
               id={styles.massage}
               placeholder="massage"
               {...register("massage")}
             />
-            <br />
+           </div>
+           
+
             <div id={styles.submitBtn}>
               <input type="submit" />
             </div>
-
-            <br />
           </form>
         </div>
       </div>

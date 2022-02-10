@@ -2,21 +2,25 @@
   display: flex;
   justify-content: center;
   /* border: 2px solid green; */
-  padding: 0% 1%;
+  padding: 0% 0%;
+  /* position: relative; */
+  position: sticky;
+  top: 0%;
+  z-index: 9999;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* flex-wrap: wrap; */
   font-weight: bold;
   font-size: 1.5rem;
-  /* padding: 10px 50px; */
   color: #4a69ea;
-  /* max-width: 3000px; */
-  /* border: 2px solid red; */
   width: 1500px;
+  background-color: #dadada;
+  max-width: 1500px;
+  padding: 0% 50px;
+  animation: navStyle 400ms;
 }
 .navOption ul {
   display: inline-flex;
@@ -46,5 +50,14 @@
   }
   .sideBar div ul li {
     list-style: none;
+  }
+}
+
+@keyframes navStyle {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
   }
 }
